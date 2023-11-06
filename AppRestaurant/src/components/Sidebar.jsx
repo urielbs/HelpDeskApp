@@ -6,7 +6,7 @@ export default function Sidebar() {
         <div className="p-4">
             <img 
                 className="w-40"
-                src="img/logo.svg" 
+                src="img/logo.png" 
             />
         </div>
 
