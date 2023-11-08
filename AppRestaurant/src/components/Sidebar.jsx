@@ -3,10 +3,10 @@ import Categoria from "./Categoria"
 
 export default function Sidebar() {
   return (
-    <aside className="md:w-72">
+    <aside className="md:w-72 shadow-xl bg-azul-50">
         <div className="p-4">
             <img 
-                className="w-40"
+                className="w-40 ml-10"
                 src="img/logo.png" 
             />
         </div>
@@ -26,7 +26,7 @@ export default function Sidebar() {
                 type="button"
                 className="text-center bg-red-500 w-full p-3 font-bold text-white truncate"    
             >
-                Cancelar Orden
+                Cerrar Sesion
             </button>
 
         </div>

@@ -5,7 +5,7 @@ export default function Producto({producto}) {
   const {nombre,precio,imagen} = producto
 
     return (
-    <div className="border p-3 shadow bg-white">
+    <div className="border p-3 shadow-md bg-white">
         <img 
             src={`/img/${imagen}.jpg`} 
             className="w-full"
